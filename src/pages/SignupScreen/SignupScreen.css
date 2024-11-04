@@ -1,0 +1,106 @@
+/* src/components/SignupScreen.css */
+
+.signup-screen {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #181818;
+  color: #fff;
+  height: 100vh;
+}
+
+.signup-header {
+  display: flex;
+  justify-content: space-between;
+  width: 90%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px 0;
+}
+
+.logo {
+  font-size: 24px;
+  color: #fff;
+}
+
+.nav-buttons {
+  display: flex;
+  gap: 10px;
+}
+
+.nav-button {
+  background: none;
+  border: none;
+  color: #fff;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.signup-content {
+  display: flex;
+  justify-content: space-between;
+  width: 90%;
+  max-width: 800px;
+  margin: 0 auto;
+  padding-top: 50px;
+}
+
+.signup-info {
+  width: 50%;
+  font-size: 18px;
+}
+
+.signup-form {
+  width: 40%;
+  background-color: #202020;
+  padding: 20px;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.signup-form h3 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.signup-form p {
+  font-size: 14px;
+  color: #aaa;
+  text-align: center;
+}
+
+.signup-form form {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.signup-form input {
+  background-color: #333;
+  color: #fff;
+  border: none;
+  padding: 12px;
+  margin: 8px 0;
+  border-radius: 4px;
+}
+
+.submit-button {
+  background-color: #ff0077;
+  color: #fff;
+  border: none;
+  padding: 12px;
+  margin-top: 15px;
+  cursor: pointer;
+  border-radius: 4px;
+  font-size: 16px;
+}
+
+.terms-text {
+  font-size: 12px;
+  color: #aaa;
+  text-align: center;
+  margin-top: 10px;
+}
